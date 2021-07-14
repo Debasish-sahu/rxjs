@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+ul.techlist {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  li {
+    background: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 8px 13px;
+    margin-bottom: 10px;
+  }
+}
+ul.techlist.error li {
+  color: red;
+  background: #ff000024;
+  border-color: red;
+}
+
+ul.techlist.complete li {
+  color: green;
+  background: #0080002e;
+  border-color: green;
+}

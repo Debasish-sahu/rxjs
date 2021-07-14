@@ -1,0 +1,22 @@
+<div class="my-3">
+  <h2>ExhaustMap</h2>
+  <br />
+  <h5>Save Data</h5>
+  <hr />
+  <div class="row">
+    <div class="col-md-5">
+      <button class="btn btn-success" #btn>Save</button>
+    </div>
+    <div class="col-md-4">
+      <div class="text-center" *ngIf="fetching">
+        <div class="spinner-border text-warning" role="status">
+          <div class="sr-only">Loading...</div>
+        </div>
+        Saving...
+      </div>
+      <ul class="video-list">
+        <li><strong>Save Request : </strong>{{ saveRequest }}</li>
+      </ul>
+    </div>
+  </div>
+</div>

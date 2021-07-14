@@ -1,0 +1,16 @@
+li:hover {
+  a {
+    color: white !important;
+  }
+  background-color: gray !important;
+  cursor: pointer;
+}
+
+a {
+  color: black;
+}
+
+#main {
+  display: flex;
+  justify-content: space-between;
+}
